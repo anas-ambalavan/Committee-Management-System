@@ -1,7 +1,7 @@
 <?php
 function connect()
 {
-    $connection=mysqli_connect("localhost","root","0808","msf");
+    $connection=mysqli_connect("localhost","root","","campuswing");
     return $connection;
 }
 
