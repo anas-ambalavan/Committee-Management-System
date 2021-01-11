@@ -12,7 +12,7 @@
 
 4. Select the Database `campuswing` and import `campuswing.sql` file.
 
-5. if your `root` has password ,put the password in : <br><br>`functions/connection.php`-> `$connection=mysqli_connect("localhost","root","<your-password-here>","campuswing");`
+5. if your `root` has password ,put the password in : <br><br>`functions/connection.php`-> <br><br>`$connection=mysqli_connect("localhost","root","<your-password-here>","campuswing");`
 
 5. Start the server and Run the application.
 
