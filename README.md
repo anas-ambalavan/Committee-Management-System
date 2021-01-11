@@ -1,5 +1,5 @@
 # Committee-Management-System
-###A Simple PHP application
+### A Simple PHP application
 
 
 1.Download or Clone this Repo
