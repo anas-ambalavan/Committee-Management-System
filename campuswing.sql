@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 4.8.5
+-- version 5.0.1
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: Feb 18, 2020 at 07:12 PM
--- Server version: 10.1.40-MariaDB
--- PHP Version: 7.3.5
+-- Generation Time: Jan 11, 2021 at 10:55 AM
+-- Server version: 10.4.11-MariaDB
+-- PHP Version: 7.3.14
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
@@ -71,7 +71,7 @@ CREATE TABLE `committee` (
 --
 
 INSERT INTO `committee` (`id`, `chairman`, `vice_chairman1`, `vice_chairman2`, `general_convenor`, `convenor1`, `convenor2`, `treasurer`, `SIT`, `district_counsellor`, `state_counsellor`) VALUES
-(1, 1, 2, 3, 4, 5, 6, 7, 8, 9, 11);
+(1, 35, 2, 3, 4, 5, 6, 7, 8, 9, 11);
 
 -- --------------------------------------------------------
 
@@ -103,7 +103,8 @@ INSERT INTO `exe_members` (`id`, `name`, `Q1`, `Q2`, `Q3`, `Q4`, `campus`) VALUE
 (7, 's', 's', 's', 's', 's', 'mea'),
 (8, 'TEST', 'TEST', 'TEST', 'TEST', 'TEST', 'mea'),
 (9, 'Paulina', 'TEST', 'TEST', 'TEST', 'TEST', 'mea'),
-(10, 'Mariko', 'testt', 'nbnb jjhjhj kjhkjkj', 'wewe', 'wre', 'mea');
+(10, 'Mariko', 'testt', 'nbnb jjhjhj kjhkjkj', 'wewe', 'wre', 'mea'),
+(11, 'hsfs', 'hsfs', 'hfss', 'hfrr', 'hfee', 'mea');
 
 -- --------------------------------------------------------
 
@@ -145,13 +146,12 @@ INSERT INTO `members` (`id`, `name`, `course`, `year`, `phone`, `email`, `campus
 (16, 'Maybelle', 'Ai', '2', '02-3518-7078', 'rtabar@hotmail.com', 'mea', 'AB-'),
 (17, 'Camellia', 'ml', '3', '07-9387-7293', 'mbewley@yahoo.com', 'mea', 'O-'),
 (18, 'Roy', 'pg', '4', '02-5171-4345', 'camellia_pylant@gmail.com', 'mea', 'A-'),
-(19, 'anas', 'bcom', '2nd', '09567141460', 'umsi@umich.edu', 'mea', 'B+'),
-(20, 'anas', 'bcom', '2nd', '09567141987', '', 'mea', 'A-'),
 (23, 'TEST', 'bcom', '2nd', '9567114147', 'gfhf@gg.c', 'mea', 'A-'),
 (24, 'TEST', 'TEST', 'TEST', '9567141000', 'umsi@umich.edu', 'mea', 'B+'),
 (25, 'anas', 'bcom', '2nd', '09567141001', 'umsi@umich.edu', 'mea', 'B+'),
 (26, '  qqq ', 'bcom', '3rd', '09567141002', 'umsi@umich.edu', 'mea', 'B+'),
-(33, 'anas', 'bcom', '2nd', '09567141333', 'umsi@umich.edu', 'mea', 'A-');
+(34, 'ada', 'jhsda', '2019', '7684232342', 'fghh@fgf.vpmmsdg', 'mea', 'B-'),
+(35, 'hsfs', 'ryer', '2018', '9876549870', 'sw212@wq.vom', 'mea', 'A-');
 
 --
 -- Indexes for dumped tables
@@ -216,13 +216,13 @@ ALTER TABLE `committee`
 -- AUTO_INCREMENT for table `exe_members`
 --
 ALTER TABLE `exe_members`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
 
 --
 -- AUTO_INCREMENT for table `members`
 --
 ALTER TABLE `members`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=34;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=36;
 
 --
 -- Constraints for dumped tables

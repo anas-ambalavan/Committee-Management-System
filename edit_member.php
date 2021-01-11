@@ -132,10 +132,10 @@ $('#bloodgroup option[value="<?php echo $blood;?>"]').attr('selected', 'selected
 <script type="text/javascript" src="assets/pages/dashboard/amchart/js/serial.js"></script>
 <script type="text/javascript" src="assets/pages/dashboard/amchart/js/light.js"></script>
 <script type="text/javascript" src="assets/pages/dashboard/amchart/js/custom-amchart.js"></script>
-<script type="text/javascript" src="../bower_components/i18next/i18next.min.js"></script>
-<script type="text/javascript" src="../bower_components/i18next-xhr-backend/i18nextXHRBackend.min.js"></script>
-<script type="text/javascript" src="../bower_components/i18next-browser-languagedetector/i18nextBrowserLanguageDetector.min.js"></script>
-<script type="text/javascript" src="../bower_components/jquery-i18next/jquery-i18next.min.js"></script>
+<script type="text/javascript" src="assets/bower_components/i18next/i18next.min.js"></script>
+<script type="text/javascript" src="assets/bower_components/i18next-xhr-backend/i18nextXHRBackend.min.js"></script>
+<script type="text/javascript" src="assets/bower_components/i18next-browser-languagedetector/i18nextBrowserLanguageDetector.min.js"></script>
+<script type="text/javascript" src="assets/bower_components/jquery-i18next/jquery-i18next.min.js"></script>
 <script type="text/javascript" src="assets/pages/dashboard/custom-dashboard.js"></script>
 <script type="text/javascript" src="assets/js/script.js"></script>
 <script src="assets/js/pcoded.min.js"></script>
@@ -143,7 +143,7 @@ $('#bloodgroup option[value="<?php echo $blood;?>"]').attr('selected', 'selected
 
 
 
-<script type="text/javascript" src="../bower_components/jquery-ui/jquery-ui.min.js"></script>
+<script type="text/javascript" src="assets/bower_components/jquery-ui/jquery-ui.min.js"></script>
 <script type="text/javascript" src="assets/pages/j-pro/js/jquery.ui.min.js"></script>
 <script type="text/javascript" src="assets/pages/j-pro/js/jquery.maskedinput.min.js"></script> 
 <script type="text/javascript" src="assets/pages/j-pro/js/jquery.j-pro.js"></script> 

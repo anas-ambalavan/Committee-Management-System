@@ -12,7 +12,7 @@ session_destroy();
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>SKSSF CAMPUSWING MEMBERSHIP CAMPAIGN</title>
+        <title>CAMPUSWING MEMBERSHIP CAMPAIGN</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -21,7 +21,7 @@ session_destroy();
         <meta name="author" content="Phoenixcoded">
         <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
-        <link rel="stylesheet" type="text/css" href="../bower_components/bootstrap/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="assets/bower_components/bootstrap/dist/css/bootstrap.min.css">
         <link rel="stylesheet" type="text/css" href="assets/icon/themify-icons/themify-icons.css">
         <link rel="stylesheet" type="text/css" href="assets/icon/icofont/css/icofont.css">
         <link rel="stylesheet" type="text/css" href="assets/css/style.css">
@@ -59,7 +59,7 @@ session_destroy();
                         <div class="login-card card-block auth-body">
                             <form class="md-float-material" method="post" action="functions/validate_login.php">
                                 <div class="text-center">
-                                    <h3 style="color: white">SKSSF CAMPUSWING</h3>
+                                    <h3 style="color: white">CAMPUSWING</h3>
                                 </div>
                                 <div class="auth-box">
                                     <div class="row m-b-20">
@@ -90,17 +90,17 @@ session_destroy();
                 </div>
             </div>
         </section>
-        <script type="text/javascript" src="../bower_components/jquery/dist/jquery.min.js"></script>
-        <script type="text/javascript" src="../bower_components/jquery-ui/jquery-ui.min.js"></script>
-        <script type="text/javascript" src="../bower_components/tether/dist/js/tether.min.js"></script>
-        <script type="text/javascript" src="../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-        <script type="text/javascript" src="../bower_components/jquery-slimscroll/jquery.slimscroll.js"></script>
-        <script type="text/javascript" src="../bower_components/modernizr/modernizr.js"></script>
-        <script type="text/javascript" src="../bower_components/modernizr/feature-detects/css-scrollbars.js"></script>
-        <script type="text/javascript" src="../bower_components/i18next/i18next.min.js"></script>
-        <script type="text/javascript" src="../bower_components/i18next-xhr-backend/i18nextXHRBackend.min.js"></script>
-        <script type="text/javascript" src="../bower_components/i18next-browser-languagedetector/i18nextBrowserLanguageDetector.min.js"></script>
-        <script type="text/javascript" src="../bower_components/jquery-i18next/jquery-i18next.min.js"></script>
+        <script type="text/javascript" src="assets/bower_components/jquery/dist/jquery.min.js"></script>
+        <script type="text/javascript" src="assets/bower_components/jquery-ui/jquery-ui.min.js"></script>
+        <script type="text/javascript" src="assets/bower_components/tether/dist/js/tether.min.js"></script>
+        <script type="text/javascript" src="assets/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="assets/bower_components/jquery-slimscroll/jquery.slimscroll.js"></script>
+        <script type="text/javascript" src="assets/bower_components/modernizr/modernizr.js"></script>
+        <script type="text/javascript" src="assets/bower_components/modernizr/feature-detects/css-scrollbars.js"></script>
+        <script type="text/javascript" src="assets/bower_components/i18next/i18next.min.js"></script>
+        <script type="text/javascript" src="assets/bower_components/i18next-xhr-backend/i18nextXHRBackend.min.js"></script>
+        <script type="text/javascript" src="assets/bower_components/i18next-browser-languagedetector/i18nextBrowserLanguageDetector.min.js"></script>
+        <script type="text/javascript" src="assets/bower_components/jquery-i18next/jquery-i18next.min.js"></script>
         <script type="text/javascript" src="assets/js/script.js"></script>
     </body>
 </html>

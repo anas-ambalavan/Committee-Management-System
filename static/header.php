@@ -7,12 +7,12 @@
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
-		<meta name="description" content="SKSSF CAMPUSWING">
+		<meta name="description" content="CAMPUSWING">
 		<meta name="keywords" content=", Flat ui, Admin , Responsive, Landing, Bootstrap, App, Template, Mobile, iOS, Android, apple, creative app">
-		<meta name="author" content="SKSSF CAMPUSWING">
+		<meta name="author" content="CAMPUSWING">
 		<link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
-		<link rel="stylesheet" type="text/css" href="../bower_components/bootstrap/dist/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="assets/bower_components/bootstrap/dist/css/bootstrap.min.css">
 		<link rel="stylesheet" type="text/css" href="assets/icon/themify-icons/themify-icons.css">
 		<link rel="stylesheet" type="text/css" href="assets/icon/icofont/css/icofont.css">
 		<link rel="stylesheet" type="text/css" href="assets/pages/flag-icon/flag-icon.min.css">
